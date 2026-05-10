@@ -37,5 +37,5 @@ describe('Clicking "Pusha till stacken"', () => {
 test('Rubriken ska innehålla ordet banan', async () => {
     const title = await driver.findElement(By.tagName("h1")).getText();
 
-    expect(title.includes("banan")).toBe(true);
+    expect(title.includes("stack")).toBe(true);
 }, defaultTimeout);

@@ -21,5 +21,5 @@ test('stacken ska behålla det senaste tillagda djuret', () => {
   stack.push("katt");
   stack.push("hund");
 
-  expect(stack.peek()).toBe("katt");
+  expect(stack.peek()).toBe("hund");
 });
